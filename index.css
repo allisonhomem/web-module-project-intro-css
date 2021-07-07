@@ -1,0 +1,105 @@
+* {
+    text-align: center;
+    font-family: 'Roboto Mono', monospace;
+}
+
+.buttons {
+    display: flex;
+    justify-content: space-between;
+    padding: 3% 15%;
+}
+
+.buttons a {
+    border-radius: 10px;
+    padding: 0 1rem;
+    text-decoration: none;
+    color: white; 
+    height: 3rem;
+    width: 7rem;
+}
+
+.button1 {
+    background-color: #FF764E;
+}
+
+.button2 {
+    background-color: #5ED3EB;
+}
+
+.button3 {
+    background-color: #FFCD69;
+}
+
+.top_banner {
+    display: flex;
+    padding: 0 2%;
+}
+
+#yosemite_sunset {
+    width: 15rem;
+    height: 15rem;
+    float: left;
+    margin: 5%;
+    border-radius: 999px;
+}
+
+.title_info {
+    float: right;
+    margin: 2%;
+    padding: 2% 0;
+}
+
+h1 {
+    font-family: 'Chelsea Market', cursive;
+    font-size: 3rem;
+}
+
+#title_para2 {
+    margin: 5% 15%;
+}
+
+main{
+    margin: 0 2%;
+}
+
+.moremarketing {
+    padding: .5% 2%;
+    color: white;
+    background-color: #DDB9A3;
+}
+
+.fire {
+    padding: 1% 37%;
+    font-size: .75rem;
+}
+
+#fire_emoji {
+    width: 7rem;
+    height: 7rem; 
+}
+
+.camp {
+    padding: 5% 37%;
+    font-size: .75rem;
+}
+
+#rv_emoji {
+    width: 7rem;
+    height: 7rem;
+}
+
+.boldwords {
+    font-weight: bolder;
+}
+
+footer {
+    background-color: #F9E7DC;
+}
+
+.footer_banner_pic {
+    display: block;
+    background-size: cover;
+    background-image: url(assets/footer_img.jpg);
+    width: 100%;
+    height: 250px;
+}
